@@ -2,7 +2,8 @@
 ## Lazar Panov 213233
 
 ### Control Flow Graph
-![final](https://github.com/lazarpanov/SI_2023_lab2_213233/assets/116360184/bf3faf3c-7380-495c-b3e4-a3e0422cae86)
+![finalv2](https://github.com/lazarpanov/SI_2023_lab2_213233/assets/116360184/8cd902bc-d06f-4cbd-b8f0-e4b1ed369fa8)
+
 
 ### Циккломатска комплексност
 - Цикломатската комплексност изнесува 11, ја добив преку број на региони (10) + 1
@@ -29,6 +30,9 @@
         User case4 = new User("sadasd", "hhhhhhhhh ", "case4@gmail.com");
         assertFalse(SILab2.function(case4, listForCase2));
 
+        //TEST 5
+        User case5 = new User("case5", "abcdefgh", "case5@test.com");
+        assertFalse(SILab2.function(case5, nullUsers));
 TEST 1
 - пробувам да додадам null user во празна листа за да се провери exceptionot
 
@@ -41,6 +45,8 @@ TEST 3
 TEST 4
 - ќе врати false кога ќе провери if (!passwordLower.contains(" ")) и ќе отиде на крај во return false
 
+TEST 5
+- ќе влезе во if условот за password со празно место, потоа ќе го изврти for циклусот без да најде match за специјален карактер и ќе врати false на 74-ти ред
 ### Multiple condition
         //CASE 1
         RuntimeException ex;

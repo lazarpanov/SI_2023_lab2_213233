@@ -25,6 +25,9 @@ class SILab2Test {
 
         User case4 = new User("sadasd", "hhhhhhhhh ", "case4@gmail.com");
         assertFalse(SILab2.function(case4, listForCase2));
+
+        User case5 = new User("case5", "abcdefgh", "case5@test.com");
+        assertFalse(SILab2.function(case5, nullUsers));
     }
 
     @Test
