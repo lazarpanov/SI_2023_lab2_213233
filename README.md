@@ -2,7 +2,7 @@
 ## Lazar Panov 213233
 
 ### Control Flow Graph
-![finalv2](https://github.com/lazarpanov/SI_2023_lab2_213233/assets/116360184/8cd902bc-d06f-4cbd-b8f0-e4b1ed369fa8)
+![finalv2](https://github.com/lazarpanov/SI_2023_lab2_213233/blob/master/finalv2.png?raw=true)
 
 
 ### Циккломатска комплексност
